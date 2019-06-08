@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  display: flex;
+  width: 70%;
+  height: 15vh;
+  margin: auto;
+  align-items: center;
+}
+.title {
+  align-self: center;
+  padding: 0 0 60px 0;
+  font-size: 44px;
+  font-weight: 700;
+  color: rgb(255, 153, 0);
+}
+
+.header-logo,
+.nav-links,
+nav,
+.cart {
+  display: flex;
+}
+.header-logo {
+  flex: 1;
+}
+
+nav {
+  flex-direction: column;
+  flex: 5;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgb(12, 12, 163);
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.cart {
+  flex: 1;
+}
